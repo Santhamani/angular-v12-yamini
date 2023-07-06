@@ -7,13 +7,13 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HomeComponent } from './home.component';
 import { UserComponent } from './user.component';
-import { HeaderComponent } from './header.component';
-import { FooterComponent } from './footer.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component'
 import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   imports: [ BrowserModule, FormsModule, AppRoutingModule],
-  declarations: [AppComponent, HelloComponent, HomeComponent, FooterComponent,UserComponent, HeaderComponent],
+  declarations: [AppComponent, HelloComponent, HomeComponent,UserComponent, HeaderComponent,FooterComponent ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
